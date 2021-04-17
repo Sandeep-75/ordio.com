@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+body {
+  background-color: rgb(243, 244, 248) !important;
+}
+.navbar {
+  width: 81vw;
+  height: 104px;
+  position: fixed;
+  top: 25px;
+  left: 147px;
+  z-index: 10;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0px 30px;
+  border-radius: 50px;
+  transition: all 0.2s ease 0s;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+  background-color: rgb(255, 255, 255);
+}
+.nav-btn {
+  display: flex;
+}
+.first-btn,
+.second-btn {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  height: 36px;
+  padding: 0px 14px;
+  font-size: 13px;
+  border-radius: 30px;
+  border: 1px solid rgb(55, 67, 72);
+  text-decoration: none !important;
+  color: black;
+}
+.second-btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(55, 67, 72);
+}
+.main-contant {
+  padding: 170px 0 0 0 !important;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+.main-contant .contant h1 {
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 92px;
+  color: rgb(77, 142, 243);
+  font-family: ConcourseC6, sans-serif;
+  margin: 0px 0px 25px;
+}
+.contant span {
+  color: rgb(55, 67, 72);
+  font-size: 28px;
+}
+.contant .points {
+  display: flex;
+  justify-content: center;
+}
+.contant .points p {
+  padding: 25px 10px;
+}
+.contant .points i {
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 7px;
+}
+.contant a {
+  background-color: #4d8ef3;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 28px;
+  margin: 26px;
+  font-weight: 600;
+}
+.first-svg-img {
+  margin: 70px 0;
+}
+
+.logo-one {
+  background-image: url(https://www.ordio.com/static/media/logo1-m.5da64a5f.png);
+  background-size: 156px 57px;
+}
