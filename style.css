@@ -90,7 +90,134 @@ body {
   margin: 70px 0;
 }
 
-.logo-one {
-  background-image: url(https://www.ordio.com/static/media/logo1-m.5da64a5f.png);
-  background-size: 156px 57px;
+.logo-box {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 60px;
+}
+.contant2 span {
+  font-weight: 500;
+  color: rgb(152, 158, 162);
+}
+.contant2 h1 {
+  font-weight: 600;
+  color: rgb(55, 67, 72);
+  font-size: 50px;
+  font-family: ConcourseC6, sans-serif;
+  margin: 18px 0;
+}
+.contant2 p {
+  color: rgb(55, 67, 72);
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 100 !important;
+}
+.contant3,
+.contant4,
+.contant5 {
+  padding: 130px 0 0 0;
+  text-align: left;
+}
+
+.contant3 .data span,
+.contant4 .data span,
+.contant5 .data span,
+.contant6 .data span,
+.contant7 .data span {
+  color: rgb(152, 158, 162);
+  font-size: 15px;
+}
+.contant3 .data h1,
+.contant4 .data h1,
+.contant5 .data h1,
+.contant6 .data h1,
+.contant7 .data h1 {
+  color: rgb(55, 67, 72);
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0px 0px 22px;
+}
+.contant3 .data p,
+.contant4 .data p,
+.contant5 .data p,
+.contant6 .data p,
+.contant7 .data p {
+  font-weight: 100;
+  color: rgb(55, 67, 72);
+  font-size: 20px;
+}
+.contant3 .svg-img .img-1 {
+  position: absolute;
+  right: 180px;
+  top: 50px;
+  z-index: 1;
+}
+.contant3 .svg-img .img-2 {
+  position: absolute;
+  top: 48px;
+  left: 120px;
+}
+.contant3 .svg-img svg {
+  position: absolute;
+  top: 31px;
+  z-index: 2;
+  left: 60px;
+}
+
+.contant4 .svg-img1:nth-child(1) {
+  right: 90px;
+  position: absolute;
+}
+.inner-img {
+  position: absolute;
+  top: 35px;
+  right: 271px;
+}
+.contant4 .data,
+.contant6 .data {
+  text-align: right;
+  padding: 150px 0 0 0;
+}
+
+.contant5 .svg-img .parallax-outer {
+  position: absolute;
+  right: 205px;
+}
+.contant5 .svg-img .parallax-inner {
+  position: absolute;
+  right: 0px;
+}
+.contant6 {
+  padding: 60px 0;
+}
+.contant6 .svg-img .first-svg {
+  position: absolute;
+  left: 305px;
+  top: 190px;
+}
+.contant6 .svg-img .second-svg {
+  position: absolute;
+  top: 250px;
+  right: 295px;
+}
+.contant6 .svg-img .third-svg {
+  position: absolute;
+  top: 320px;
+  right: 520px;
+}
+.contant7 {
+  padding: 300px 0 0 0;
+  text-align: left;
+}
+.contant7 .main-form {
+  padding: 14px 20px;
+  width: 426px;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.contant7 .main-form p {
+  color: rgb(55, 67, 72);
+  font-size: 15px;
 }
