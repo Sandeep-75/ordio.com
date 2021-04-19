@@ -90,28 +90,32 @@ body {
   margin: 70px 0;
 }
 
-.logo-box {
-  max-width: 1220px;
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
   width: 100%;
-  margin: 0px auto;
-  padding: 0px 60px;
 }
-.contant2 span {
-  font-weight: 500;
-  color: rgb(152, 158, 162);
+.img1 img {
+  width: 100%;
 }
-.contant2 h1 {
-  font-weight: 600;
-  color: rgb(55, 67, 72);
-  font-size: 50px;
-  font-family: ConcourseC6, sans-serif;
-  margin: 18px 0;
+
+.img4 img {
+  width: 50%;
 }
-.contant2 p {
-  color: rgb(55, 67, 72);
-  font-size: 22px;
-  line-height: 30px;
-  font-weight: 100 !important;
+
+.contant2 svg {
+  position: absolute;
+  top: 272vh;
+  left: 298px;
 }
 .contant3,
 .contant4,
@@ -120,6 +124,7 @@ body {
   text-align: left;
 }
 
+.contant2 span,
 .contant3 .data span,
 .contant4 .data span,
 .contant5 .data span,
@@ -128,6 +133,7 @@ body {
   color: rgb(152, 158, 162);
   font-size: 15px;
 }
+.contant2 h1,
 .contant3 .data h1,
 .contant4 .data h1,
 .contant5 .data h1,
@@ -138,6 +144,7 @@ body {
   font-size: 50px;
   margin: 0px 0px 22px;
 }
+.contant2 p,
 .contant3 .data p,
 .contant4 .data p,
 .contant5 .data p,
@@ -207,7 +214,7 @@ body {
   right: 520px;
 }
 .contant7 {
-  padding: 300px 0 0 0;
+  padding: 300px 0 300px 0;
   text-align: left;
 }
 .contant7 .main-form {
@@ -216,8 +223,47 @@ body {
   box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
+  position: absolute;
+  right: 0;
 }
 .contant7 .main-form p {
   color: rgb(55, 67, 72);
+  font-size: 12px;
+}
+.contant7 .main-form .form .first-line {
+  display: flex;
+}
+.contant7 .main-form .form input {
+  width: 100%;
   font-size: 15px;
+  padding: 7px 10px;
+  border: 1px solid rgb(238, 238, 240);
+  border-radius: 3px;
+  margin: 10px 5px;
+}
+
+.contant7 .main-form .form .first-line .name,
+.s-name,
+.email p,
+.mob p,
+.extra p {
+  position: absolute;
+  background: white;
+  left: 35px;
+}
+.name,
+.s-name {
+  top: 50px;
+}
+.s-name {
+  left: 226px;
+}
+.email p {
+  top: 108px;
+}
+.mob p {
+  top: 166px;
+}
+.extra p {
+  top: 225px;
 }
